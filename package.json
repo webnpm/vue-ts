@@ -1,0 +1,28 @@
+{
+  "name": "vue3-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "run-dev": "vite --mode dev",
+    "run-test": "vite --mode test",
+    "run-beta": "vite --mode beta",
+    "run-prod": "vite --mode prod",
+
+    "build-dev": "vue-tsc && vite build --mode dev",
+    "build-test": "vue-tsc && vite build --mode test",
+    "build-beta": "vue-tsc && vite build --mode beta",
+    "build-prod": "vue-tsc && vite build --mode prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.8",
+    "vue-tsc": "^1.6.5"
+  }
+}
